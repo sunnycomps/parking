@@ -26,10 +26,10 @@
 
 # Menampilkan layar utama
 print("-------------------------------------------------------")
-print("                                                       ")
+print()
 print("                    Selamat Datang!                    ")
 print(" Silahkan Tempel Kartu Member atau Tekan Tombol Tiiket ")
-print("                                                       ")
+print()
 print("-------------------------------------------------------")
 
 
@@ -38,22 +38,23 @@ print("   Jam Parkir   |  Motor  |  Mobil  | Box/Truk/Pickup |")
 print("  2 Jam Pertama |  1500   |  3000   |      5000       |")
 print(" Jam Berikutnya |  1500   |  3000   |      5000       |")
 print("-------------------------------------------------------")
-print("                                                       ")
-print("                                                       ")
-print("                                                       ")
+print()
+print()
+print()
 
 # Input Jenis Pembayaran (Tiket/Member)
-Opt_one = str(input("             (T)iket atau (K)artu Member?               ")
-    if Opt_one == T or Opt_one == ("Tiket");
+Opt_one = str(input("(T)iket atau (K)artu Member? "):
+print (Opt_one)
+    if Opt_one == T or Opt_one == ("Tiket"):
         print("                    Mencetak Tiket,                    ")
         print("                   .................                   ")
         print("                    Silahkan Masuk!                    ")
-    elif Opt_one == ("K") or Opt_one == ("Kartu Member");
+    elif Opt_one == ("K") or Opt_one == ("Kartu Member"):
         NM = str(input("Nama: ")
         print("          Selamat Datang, " + (NM) " !")
         print("                   .................                   ")
         print("                    Silahkan Masuk!                    ")
-    else;
+                 else:
         print(Opt_one)
 
 # Input jam saat ingin parkir
