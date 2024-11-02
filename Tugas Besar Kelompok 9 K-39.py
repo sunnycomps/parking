@@ -10,6 +10,10 @@
 #   Reynaldi Putra Langit           (16924178)
 
 
+#Errors, errors and errors
+#Can't seem to solve it 
+#Will continue tommorrow
+
 # Deskripsi : Program sistem parkir otomatis dengan metode pembayaran non tunai
 
 # KAMUS
@@ -37,17 +41,16 @@ print("-------------------------------------------------------")
 print("                                                       ")
 print("                                                       ")
 print("                                                       ")
-print("                                                       ")
 
 # Input Jenis Pembayaran (Tiket/Member)
-Opt_one = str(input("             (T)iket atau (K)artu Member?              ")
+Opt_one = str(input("             (T)iket atau (K)artu Member?               ")
     if Opt_one == T or Opt_one == ("Tiket");
         print("                    Mencetak Tiket,                    ")
         print("                   .................                   ")
         print("                    Silahkan Masuk!                    ")
     elif Opt_one == ("K") or Opt_one == ("Kartu Member");
-        NM = str(input("              Nama: ")
-        print("            Selamat Datang, " + (NM) " !")
+        NM = str(input("Nama: ")
+        print("          Selamat Datang, " + (NM) " !")
         print("                   .................                   ")
         print("                    Silahkan Masuk!                    ")
     else;
