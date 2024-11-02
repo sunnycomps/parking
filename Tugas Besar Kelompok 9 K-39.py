@@ -50,7 +50,8 @@ Opt_one = str(input("             (T)iket atau (K)artu Member?              ")
         print("            Selamat Datang, " + (NM) " !")
         print("                   .................                   ")
         print("                    Silahkan Masuk!                    ")
-    
+    else;
+        print(Opt_one)
 
 # Input jam saat ingin parkir
 JP = int(input("Jam masuk: "))
